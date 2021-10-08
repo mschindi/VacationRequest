@@ -12,10 +12,12 @@ namespace VacationRequest.Helper
             return new ReadUserModel
             {
                 Id = user.Id,
+                Username = user.Username,
                 Address = user.Address,
                 Email = user.Email,
                 FirstName = user.FirstName,
-                  LastName = user.LastName,
+                LastName = user.LastName,
+                Avatar = user.Avatar
             };
         }
         
@@ -24,10 +26,12 @@ namespace VacationRequest.Helper
         {
             return new CreateUserModel
             {
+                Username = user.Username,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Address = user.Address,
-                Email = user.Email
+                Email = user.Email,
+                Avatar = user.Avatar
             };
         }
 
@@ -37,10 +41,12 @@ namespace VacationRequest.Helper
             return new User
             {
                 Id = updateUserModel.Id,
+                Username = updateUserModel.Username,
                 Address = updateUserModel.Address,
                 Email = updateUserModel.Email,
                 FirstName = updateUserModel.FirstName,
-                LastName = updateUserModel.LastName
+                LastName = updateUserModel.LastName,
+                Avatar = updateUserModel.Avatar
             };
         }
         
@@ -53,6 +59,8 @@ namespace VacationRequest.Helper
                 Email = createUserModel.Email,
                 FirstName = createUserModel.FirstName,
                 LastName = createUserModel.LastName,
+                Avatar = createUserModel.Avatar,
+                Username = createUserModel.Username
             };
         }
         

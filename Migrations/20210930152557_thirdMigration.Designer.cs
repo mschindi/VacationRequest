@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VacationRequest.Database;
 
 namespace VacationRequest.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210930152557_thirdMigration")]
+    partial class thirdMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,10 +90,6 @@ namespace VacationRequest.Migrations
                     b.Property<double>("TotalVacationDays")
                         .HasColumnType("REAL");
 
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
 
                     b.ToTable("Users");
@@ -106,8 +104,7 @@ namespace VacationRequest.Migrations
                             Email = "wurstfach69@wurstkönig.io",
                             FirstName = "Peter",
                             LastName = "Wurstgesicht",
-                            TotalVacationDays = 25.0,
-                            Username = "wurstfach69"
+                            TotalVacationDays = 25.0
                         },
                         new
                         {
@@ -118,8 +115,7 @@ namespace VacationRequest.Migrations
                             Email = "ahma1337@raus.eu",
                             FirstName = "Hakan",
                             LastName = "Murruk",
-                            TotalVacationDays = 25.0,
-                            Username = "ahman1337"
+                            TotalVacationDays = 25.0
                         });
                 });
 
@@ -162,8 +158,8 @@ namespace VacationRequest.Migrations
                             Comment = "Meine Eier tun weh, ich brauche Urlaub",
                             Title = "Urlaubsantrag für Oktober",
                             UserId = 1L,
-                            VacationEndDate = new DateTime(2021, 10, 15, 7, 31, 11, 781, DateTimeKind.Local).AddTicks(3840),
-                            VacationStartDate = new DateTime(2021, 10, 8, 7, 31, 11, 766, DateTimeKind.Local).AddTicks(7300)
+                            VacationEndDate = new DateTime(2021, 10, 7, 17, 25, 56, 660, DateTimeKind.Local).AddTicks(9470),
+                            VacationStartDate = new DateTime(2021, 9, 30, 17, 25, 56, 645, DateTimeKind.Local).AddTicks(3830)
                         },
                         new
                         {
@@ -172,8 +168,8 @@ namespace VacationRequest.Migrations
                             Comment = "Ich will meine Füße massieren lassen",
                             Title = "Urlaubsantrag für November",
                             UserId = 2L,
-                            VacationEndDate = new DateTime(2021, 10, 18, 7, 31, 11, 781, DateTimeKind.Local).AddTicks(9850),
-                            VacationStartDate = new DateTime(2021, 10, 8, 7, 31, 11, 781, DateTimeKind.Local).AddTicks(9190)
+                            VacationEndDate = new DateTime(2021, 10, 10, 17, 25, 56, 661, DateTimeKind.Local).AddTicks(5280),
+                            VacationStartDate = new DateTime(2021, 9, 30, 17, 25, 56, 661, DateTimeKind.Local).AddTicks(4700)
                         });
                 });
 

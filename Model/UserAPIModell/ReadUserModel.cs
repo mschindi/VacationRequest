@@ -6,6 +6,8 @@ namespace VacationRequest.Model.UserAPIModell
     {
         public long Id { get; set; }
 
+        public string Username { get; set; }
+
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -14,6 +16,7 @@ namespace VacationRequest.Model.UserAPIModell
 
         public string Email { get; set; }
 
+        public string Avatar { get; set; }
 
     }
 }

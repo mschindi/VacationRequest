@@ -49,7 +49,8 @@ namespace VacationRequest
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors((opt) => opt.WithOrigins(new[] { "https://localhost:3000", "http://localhost:3000" })
+                .AllowAnyHeader().AllowAnyMethod());
             app.UseRouting();
 
             app.UseAuthorization();

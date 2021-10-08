@@ -19,10 +19,12 @@ namespace VacationRequest.Database
                 new User
                 {
                     Id = 1,
+                    Username = "wurstfach69",
                     FirstName = "Peter",
                     LastName = "Wurstgesicht",
                     Address = "Wurststraße 69",
                     Email = "wurstfach69@wurstkönig.io",
+                    Avatar = "https://icon-icons.com/downloadimage.php?id=89781&root=1368/PNG/72/&file=-avatar_89781.png",
                     CurrentVacationDays = 10,
                     TotalVacationDays = 25,
 
@@ -31,10 +33,12 @@ namespace VacationRequest.Database
                 new User
                 {
                     Id = 2,
+                    Username = "ahman1337",
                     FirstName = "Hakan",
                     LastName = "Murruk",
                     Address = "Ahmedstraße 1337",
                     Email = "ahma1337@raus.eu",
+                    Avatar = "https://icon-icons.com/downloadimage.php?id=89781&root=1368/PNG/72/&file=-avatar_89781.png",
                     CurrentVacationDays = 1,
                     TotalVacationDays = 25,
 

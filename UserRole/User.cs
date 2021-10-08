@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,6 +13,9 @@ namespace VacationRequest.UserRole
         public long Id { get; set; }
         
         [Required]
+        public string Username { get; set; }
+
+        [Required]
         public string FirstName { get; set; }
         
         [Required]
@@ -21,6 +25,9 @@ namespace VacationRequest.UserRole
 
         [Required]
         public string Email { get; set; }
+        
+        [Required]
+        public string Avatar { get; set; }
 
         [Required]
         public double CurrentVacationDays { get; set; }
