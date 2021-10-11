@@ -1,0 +1,15 @@
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/Front-End.deps.json
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/Front-End.runtimeconfig.json
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/Front-End.runtimeconfig.dev.json
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/Front-End.dll
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/ref/Front-End.dll
+/Users/michaelschindezow/projects/VacationRequest/Front-End/bin/Debug/net5.0/Front-End.pdb
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.csproj.AssemblyReference.cache
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.AssemblyInfoInputs.cache
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.AssemblyInfo.cs
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.csproj.CoreCompileInputs.cache
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.dll
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/ref/Front-End.dll
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.pdb
+/Users/michaelschindezow/projects/VacationRequest/Front-End/obj/Debug/net5.0/Front-End.genruntimeconfig.cache
